@@ -68,11 +68,7 @@ private func prepareMyKitchen(launchOptions: [NSObject: AnyObject]?) -> Bool
     }
 
     Kitchen.prepare(cookbook)
-    let tabbar = KitchenTabBar(items:
-        [SearchTab(), CatalogTab()]
-    )
-
-    Kitchen.serve(recipe: tabbar)
+    Kitchen.serve(xmlFile: "Catalog.xml", type: .Modal)
 
     return true
 }
