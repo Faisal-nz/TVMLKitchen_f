@@ -31,5 +31,7 @@
 	<array>
 		<string>arm64</string>
 	</array>
+	<key>UIMainStoryboardFile</key>
+	<string>ViewController</string>
 </dict>
 </plist>
